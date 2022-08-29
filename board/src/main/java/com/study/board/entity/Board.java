@@ -9,6 +9,7 @@ import javax.persistence.Id;
 
 @Entity //테이블을 의미한다.
 @Getter
+@Setter
 public class Board {
     public Board(Integer id, String title, String content) {
         this.id = id;
